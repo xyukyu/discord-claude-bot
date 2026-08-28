@@ -1,0 +1,23 @@
+# 注意: .gitignore の # は行頭のみコメント。
+# パターンの後ろに書くとコメントにならず、パターンの一部として扱われる。
+
+# 環境依存の設定（config.example.json をコピーして作る）
+config.json
+
+# 最後に処理したメッセージID
+state.json
+
+# 実行ログ
+bot.log
+
+# 週次レポートの一時ファイル
+embed.json
+
+# プレゼンス用に毎時生成される所感
+impression.txt
+
+# 秘密情報
+# トークンは環境変数 DISCORD_TOKEN で渡すので本来ここには来ないが念のため
+.env
+
+node_modules/

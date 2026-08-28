@@ -1,0 +1,9 @@
+{
+  "channelId": "監視するチャンネルのID",
+  "statsDays": 7,
+  "impressionDays": 3,
+  "rotateSeconds": 20,
+  "statsRefreshMinutes": 10,
+  "activityType": 4,
+  "embedColor": 5793266
+}
